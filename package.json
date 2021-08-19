@@ -1,10 +1,12 @@
 {
   "name": "nasa-rest-api-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "NASA REST API Demo",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "serverless package",
+    "deploy": "serverless deploy --package .serverless"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,9 @@
   },
   "prettier": {
     "singleQuote": true
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
   }
 }
