@@ -1,0 +1,30 @@
+{
+  "name": "nasa-rest-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirakurun/nasa-rest-api-demo.git"
+  },
+  "author": "Kevin Chhay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirakurun/nasa-rest-api-demo/issues"
+  },
+  "homepage": "https://github.com/Mirakurun/nasa-rest-api-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "2.3.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
