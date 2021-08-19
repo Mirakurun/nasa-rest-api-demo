@@ -46,6 +46,8 @@ npm i -g serverless
 
 ## Setup Serverless Config Credentials
 
+Official Documentation: https://www.serverless.com/framework/docs/providers/aws/cli-reference/config-credentials/
+
 ```bash
 # Replace 'key' and 'secret' with AWS access key and secret
 serverless config credentials --provider aws --key key --secret secret
