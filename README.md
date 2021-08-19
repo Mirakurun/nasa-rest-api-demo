@@ -20,6 +20,20 @@ https://nodejs.org/en/
 npm install
 ```
 
+## Create .env.yml file
+
+```bash
+# Create in project root directory
+touch .env.yml
+```
+
+## Configure API Key
+
+```yaml
+# .env.yml
+API_KEY: PUT NASA API KEY HERE
+```
+
 ## Setup AWS Account
 
 https://aws.amazon.com/
